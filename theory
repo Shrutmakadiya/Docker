@@ -1,8 +1,16 @@
--What is Docker?
- => Docker is an open platform for developing, shipping, and running applications.
- => Docler is platform which packages an application and all its dependencies together in the form of containers
+- What is Docker?
+  => Docker is an open platform for developing, shipping, and running applications.
+  => Docler is platform which packages an application and all its dependencies together in the form of containers
+  =>Docker is not a virchual machine this is a container becouse VM have a V-Ram etc but Docker has not.
 
+- Docker File
+  => Text Documents which contains all the commands that a user can all on the command line to assemble an image.
 
-- Docker is way for create a container
-   =>Docker is not a virchual machine this is a container becouse VM have a V-Ram etc but Docker has not.
-- Docker is make easy deployment process
+- Docker Image
+  => Template to create docker container
+
+- Docker Container
+  => Running instance of the docker image. 
+     Container hold entire packeges to run application.
+
+[ Dockerfile  ===_build_===>  Docker Image ===_Run_===> Docker Container ]
