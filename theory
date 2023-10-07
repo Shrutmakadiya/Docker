@@ -1,0 +1,8 @@
+-What is Docker?
+ => Docker is an open platform for developing, shipping, and running applications.
+ => Docler is platform which packages an application and all its dependencies together in the form of containers
+
+
+- Docker is way for create a container
+   =>Docker is not a virchual machine this is a container becouse VM have a V-Ram etc but Docker has not.
+- Docker is make easy deployment process
