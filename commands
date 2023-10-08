@@ -1,1 +1,43 @@
+//check the version
+  docker -v
 
+//pull image 
+  docker pull [image name]
+
+//show all images
+  docker images
+
+//search image
+  docker search [image name]
+
+//make a container (image run)
+  docker run [image name]
+
+//show container
+  docker ps
+
+//show all container
+  docker ps -a
+
+//shortcuts flag
+  d => dispatch
+  e => environment var..
+
+//give the name to container
+  docker run --name [selected name] -d [image id]
+
+//container run in bg
+  docker run --name [selectedname] -it(interact) -d [image name]
+  __then__ docker ps
+
+// go to container
+  docker exec -it [container id] [container command]
+  --now you can use that container
+
+//exit from container
+  exit()
+
+//show container details
+  docker inspect [container id]
+
+//
