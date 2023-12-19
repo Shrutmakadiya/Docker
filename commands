@@ -5,7 +5,7 @@
   docker pull [image name]
 
 //show all images
-  docker images
+  docker images ls
 
 //search image
   docker search [image name]
